@@ -1,0 +1,150 @@
+*{box-sizing:border-box;
+margin:0;
+padding:0;}
+
+
+
+
+body{background-color:rgba(137, 43, 226, 0.445);
+
+}
+
+.main{display: flex;
+    flex-wrap:wrap;
+align-items: center;
+justify-content: center;
+height:100vh;
+ max-width:1000px;
+ margin: auto;
+}
+
+
+
+.playing-card{border:2px solid black;
+   min-width:300px;
+    height:400px;
+    margin: 12px;
+    border-radius: 15px;
+background-color: whitesmoke;
+box-shadow: 1px 2px 3px 1px  black;
+  
+}
+
+
+
+
+
+.top-left{font-size:2.3rem;
+font-family:Georgia, serif;
+margin:5px;
+    }
+
+.center{font-size:5rem;
+font-family:Georgia, serif;
+text-align:center;
+padding-top:50px}
+
+.center2-1{font-size:5rem;
+text-align: center;
+
+}
+.center2-2{font-size:5rem;
+text-align: center;
+transform:rotate(180deg)
+}
+
+.center3-1{
+    font-size:5rem;
+    text-align:center;
+    
+}
+
+.center3-2{
+     font-size:5rem;
+    text-align:center;
+}
+
+.center3-3{
+    font-size:5rem;
+    text-align:center;
+    transform:rotate(180deg);
+}
+
+.center3{
+    width:100px;
+   display: flex;
+   flex-direction: column;
+ position:absolute;
+align-self: center;
+justify-self: center;
+margin-top:200px
+}
+
+
+.center4 {
+         font-size:5rem;
+    text-align:center;
+   display:flex;
+   justify-self: center;
+}
+
+.center4-5{
+     font-size:5rem;
+    text-align:center;
+   display:flex;
+   justify-self: center;
+   transform: rotate(180deg);
+}
+
+.center5{
+     font-size:5rem;
+    text-align:center;
+   display:flex;
+   justify-self: center;
+}
+.center6{
+     font-size:5rem;
+    text-align:center;
+   display:flex;
+   justify-self: center;
+}
+
+.center7{
+     font-size:5rem;
+    text-align:center;
+   display:flex;
+   justify-self: center;
+}
+
+.center8{
+     position: absolute;
+     justify-self: center;
+     align-self: center;
+     margin-top:200px
+}
+
+.bottom-right {
+    font-size:2.3rem;
+font-family:Georgia, serif;
+transform:rotate(180deg);   
+}
+
+
+
+.flipped{
+    padding-top:70px;
+    padding-right:5px
+}
+
+.flipped2{
+    padding-top:30px;
+padding-right:5px;}
+
+.flipped3{
+    display:flex;
+    flex-direction: column;
+    padding-top:217px;
+    padding-right:5px;
+}
+
+.color{color:red}
